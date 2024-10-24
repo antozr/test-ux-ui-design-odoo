@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap w/ Parcel</title>
+		<link rel="stylesheet" href="scss/styles.scss">
+		<script type="module" src="js/main.js"></script>
+	</head>
+	<body ceb class="">
+
+
+		<div class="card container-md p-0 ">
+
+			<div class="card-header">
+				<div class="nav nav-tabs gap-2" id="nav-tab" role="tablist">
+					<button class="nav-link  ps-4 pe-4  bg-body-secondary active" id="nav-tab1-tab" data-bs-toggle="tab" data-bs-target="#nav-tab1" type="button" role="tab" aria-controls="nav-tab1" aria-selected="true">Tab 1</button>
+					<button class="nav-link ps-4 pe-4 bg-body-secondary" id="nav-tab2-tab" data-bs-toggle="tab" data-bs-target="#nav-tab2" type="button" role="tab" aria-controls="nav-tab2" aria-selected="false">Tab 2</button>
+					<button class="nav-link ps-4 pe-4 bg-body-secondary" id="nav-tab3-tab" data-bs-toggle="tab" data-bs-target="#nav-tab3" type="button" role="tab" aria-controls="nav-tab3" aria-selected="false">Tab 3</button>
+					<button class="nav-link ps-4 pe-4 bg-body-secondary" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>
+						Disabled</button>
+				</div>
+			</div>
+			<div class="card-body p-0">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-tab1" role="tabpanel" aria-labelledby="nav-tab1-tab" tabindex="0">
+						<div class=" g-0 pt-4 pb-4" id="tab1" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+
+
+							<div class="ps-4">
+								<h5 class="card-title">Card title</h5>
+								<h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+
+							</div>
+
+
+							<div class="row g-0 mt-4">
+								<ul class="list-group list-group-flush col-md-6">
+
+									<a class="ps-4 list-group-item  list-group-item-action active link-underline-opacity-0" data-bs-toggle="list" href="#item1" role="tab">An item</a>
+
+									<a class="ps-4 list-group-item   list-group-item-action  link-underline-opacity-0" data-bs-toggle="list" href="#profile" role="tab">A second item</a>
+
+
+									<a class="ps-4  list-group-item  list-group-item-action  link-underline-opacity-0" data-bs-toggle="list" href="#item1" role="tab">A third item</a>
+
+								</ul>
+								<div class="tab-content col-md-6">
+									<div class="tab-pane active h-50  overflow-hidden" id="item1" role="tabpanel">
+										<img src="https://images.unsplash.com/photo-1729591518341-f820f3872178?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-bottom img-fluid object-fit-cover img-size-h200" alt="...">
+
+									</div>
+									<div class="tab-pane h-50 overflow-hidden " id="profile" role="tabpanel">
+										<img src="https://images.unsplash.com/photo-1729590818224-c8f6464cb5a6?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-bottom img-fluid object-fit-cover img-size-h200" alt="...">
+
+									</div>
+									<div class="tab-pane h-50 overflow-hidden" id="messages" role="tabpanel">
+										<img src="https://images.unsplash.com/photo-1729591436288-b7176ef3b46d?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-bottom img-fluid object-fit-cover img-size-h200" alt="...">
+
+									</div>
+									<div class="tab-pane h-50 overflow-hidden" id="settings" role="tabpanel">...</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade " id="nav-tab2" role="tabpanel" aria-labelledby="nav-tab2-tab" tabindex="1">
+						<div class="d-flex justify-content-center pt-4 pb-4 d-flex flex-column align-items-center">
+							<h5 class="card-title pt-4">Loading...</h5>
+							<div class="spinner-border mt-2 mb-4" role="status">
+								<span class="visually-hidden">Loading...</span>
+							</div>
+						</div>
+
+					</div>
+					<div class="tab-pane fade" id="nav-tab3" role="tabpanel" aria-labelledby="nav-tab3-tab" tabindex="2">
+
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="https://images.unsplash.com/photo-1729704414861-42ecf6c9db59?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start object-fit-cover img-size img-size-h200" alt="..." >
+							</div>
+							<div class="col-md-8 ps-2">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<p class="card-text">
+										<small class="text-body-secondary">Last updated 3 mins ago</small>
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
+				</div>
+
+
+			</div>
+			<div class="card-footer text-white  bg-dark p-2 ps-4">
+				2 days ago</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+$list-group-active-bg: #28a745;
+
+nav-link.active{
+    background-color: var(--bs-nav-tabs-link-active-bg) !important;
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.tab-content {
+    box-sizing: content-box;
+  }
+
+  .img-size{
+    width:100%;
+
+    &-h200{
+        height: 200px;
+    }
+    &-h400{
+        height: 400px;
+    }
+  }
