@@ -1,19 +1,16 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
-$list-group-active-bg: #28a745;
+
 
 nav-link.active{
     background-color: var(--bs-nav-tabs-link-active-bg) !important;
     border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 
-.tab-content {
-    box-sizing: content-box;
-  }
+
 
   .img-size{
-    width:100%;
 
     &-h200{
         height: 200px;
@@ -36,4 +33,14 @@ nav-link.active{
     color: #212529;
     background-color: #ffffff;
     border-color: #dee2e6;
+  }
+
+  .nav-link:disabled{
+
+    background-color: $gray-600;
+    color: $white;
+  }
+
+  .nav-tabs{
+    background-color: $gray-800;
   }
