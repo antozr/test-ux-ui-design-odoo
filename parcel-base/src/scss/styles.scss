@@ -14,6 +14,7 @@ nav-link.active{
 
     &-h200{
         height: 200px;
+        width: 100%;
     }
     &-h400{
         height: 400px;
@@ -30,9 +31,9 @@ nav-link.active{
   }
 
   .list-group-item.active{
-    color: #212529;
-    background-color: #ffffff;
-    border-color: #dee2e6;
+    color: $gray-800;
+    background-color: $white;
+    border-color:  $gray-600;
   }
 
   .nav-link:disabled{
