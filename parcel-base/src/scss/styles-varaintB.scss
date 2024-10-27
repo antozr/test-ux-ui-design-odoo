@@ -1,0 +1,43 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+
+.nav-link:disabled{
+    background-color: $white;
+    color: $purple-500;
+}
+.nav-tabs .nav-link.active{
+    background-color: $purple-500;
+    color: $white;
+    padding-bottom:1rem *0.5 ;
+    margin-top: 1rem *0.5 ;
+}
+.nav-tabs{
+    background-color: #ffffff00;
+}
+.nav-link{
+    color: $purple-500;
+    background-color: $purple-200;
+    
+}
+
+.img-size-h200{
+    height: 400px;
+}
+.list-group-item.active{
+    color: $white;
+    background-color: $purple-500;
+    border-color:  $purple-500;
+  }
+
+ .list-group-item{
+    background-color: $purple-100;
+
+  }
+  .card-footer{
+    background-color: $indigo-100;
+  }
+
+  .bg-purple{
+    background-color: $purple-100;
+  }
